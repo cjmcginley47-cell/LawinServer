@@ -63,4 +63,4 @@ express.use((req, res, next) => {
         "intent": "prod"
     });
 });
-require('./responses/discord.js');
+require('./structure/discord.js');
